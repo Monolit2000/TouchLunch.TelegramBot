@@ -1,0 +1,6 @@
+@TouchLunch.WebHook_HostAddress = http://localhost:5155
+
+GET {{TouchLunch.WebHook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

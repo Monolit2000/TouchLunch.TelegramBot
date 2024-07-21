@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78D5DB92-7E9C-4AD7-882C-5FD455A52CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchLunch.WebHook", "src\TouchLunch.WebHook\TouchLunch.WebHook.csproj", "{0539888D-E02E-4A67-9783-9F39D4FED99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotBase", "src\TelegramBotBase\TelegramBotBase.csproj", "{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0539888D-E02E-4A67-9783-9F39D4FED99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0539888D-E02E-4A67-9783-9F39D4FED99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0539888D-E02E-4A67-9783-9F39D4FED99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0539888D-E02E-4A67-9783-9F39D4FED99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0539888D-E02E-4A67-9783-9F39D4FED99C} = {78D5DB92-7E9C-4AD7-882C-5FD455A52CB1}
+		{1CB489CA-A389-4C8F-BEE4-DB65DE6BE737} = {78D5DB92-7E9C-4AD7-882C-5FD455A52CB1}
+	EndGlobalSection
+EndGlobal
